@@ -1,0 +1,27 @@
+algoritmo "exercício_7"
+// Função :
+// Autor :
+// Data : 07/05/2024
+// Seção de Declarações 
+var
+
+   numeroInicial,numeroFinal,numeroIncremento : inteiro
+inicio
+
+    escreval("Digite o primeiro número")
+      leia(numeroInicial)
+    escreval("Digite o ultimo número")
+      leia(numeroFinal)
+    escreval("Digite o incremento")
+      leia(numeroIncremento)
+
+    enquanto numeroInicial < numeroFinal faca
+    numeroInicial := numeroInicial + numeroIncremento
+      escreva(numeroInicial)
+    FimEnquanto
+    
+    se numeroInicial > numeroFinal entao
+      escreval("Error!")
+    FimSe
+
+fimalgoritmo
