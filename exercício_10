@@ -1,0 +1,15 @@
+algoritmo "exercício_10"
+    var
+        num1, num2, soma: inteiro
+    inicio
+        num1 := 500
+        num2 := 0
+        soma := 0
+        escreva("A soma dos números é: ")
+        enquanto num1 >= num2 faca
+            soma := soma + num1
+            escreva(num1, " + ")
+            num1 := num1 - 50
+        fimenquanto
+        escreva(" = ", soma)
+fimalgoritmo
