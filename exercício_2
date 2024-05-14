@@ -1,0 +1,14 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 07/05/2024
+// Seção de Declarações 
+var
+  i: inteiro
+inicio
+       i <- 11
+        enquanto i > 3 faca
+          i <- i -1
+          escreval("Número:", i)
+        fimenquanto
+fimalgoritmo
