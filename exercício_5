@@ -1,0 +1,22 @@
+Algoritmo "ATIVIDADE 9"
+ // Disciplina : [Lógica de Programação]
+ // Professor : Rodolfo Clepf
+ // Descrição : Contagem marcando os numeros divisiveis por 4
+ // Autor(a) : Gabriel  José
+ // Data atual : 07/05/2024
+ Var
+ c : inteiro
+
+ Inicio
+ enquanto c < 31 faca
+c <- c + 1
+
+ se c % 4 = 0 entao
+ escreva("[", c, "]")
+ senao
+ escreva(c)
+ fimse
+fimenquanto
+
+
+Fimalgoritmo
