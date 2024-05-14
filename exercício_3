@@ -1,0 +1,14 @@
+algoritmo "exercício_3"
+// Função :
+// Autor :
+// Data : 07/05/2024
+// Seção de Declarações 
+var
+  i: inteiro
+inicio
+       i <- 0
+        enquanto i < 19 faca
+          escreval("Número:", i)
+          i <- i +3
+        fimenquanto
+fimalgoritmo
