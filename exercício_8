@@ -1,0 +1,32 @@
+algoritmo "exercício_8"
+// Função :
+// Autor :
+// Data : 07/05/2024
+// Seção de Declarações
+var
+
+   numeroInicial,numeroFinal,numeroIncremento : inteiro
+inicio
+
+    escreval("Digite o primeiro número")
+      leia(numeroInicial)
+    escreval("Digite o ultimo número")
+      leia(numeroFinal)
+    escreval("Digite o incremento")
+      leia(numeroIncremento)
+      
+    se (numeroInicial > numeroFinal) entao
+      enquanto numeroInicial < numeroFinal faca
+    numeroInicial := numeroInicial + numeroIncremento
+        escreva(numeroInicial)
+      FimEnquanto
+      
+    senao
+      enquanto (numeroInicial > numeroFinal) faca
+    numeroInicial := numeroInicial - numeroIncremento
+        escreva(numeroInicial)
+    FimEnquanto
+    FimSe
+
+
+fimalgoritmo
