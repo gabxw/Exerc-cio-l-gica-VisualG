@@ -1,0 +1,23 @@
+algoritmo "exercício_12"
+
+var
+   num, pares, impares, contador : inteiro
+
+inicio
+
+   pares <- 0
+   impares <- 0
+   para contador de 1 ate 6 faca
+      escreva("Digite um número: ")
+      leia(num)
+      se (num % 2 = 0) entao
+         pares <- pares + 1
+      senao
+         impares <- impares + 1
+      fimse
+   fimpara
+
+   escreval("A quantidade de números pares é: ", pares)
+   escreval("A quantidade de números ímpares é: ", impares)
+
+fimalgoritmo
