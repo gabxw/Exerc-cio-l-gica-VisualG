@@ -1,0 +1,9 @@
+algoritmo "exercício_1"
+ 
+var
+  i: inteiro
+inicio
+        para i de 6 ate 11 faca
+          escreval(i)
+        fimpara
+fimalgoritmo
